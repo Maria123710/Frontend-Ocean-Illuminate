@@ -15,12 +15,12 @@
 <body>
   <section class="h-[100vh]"
     style="background-image: url('assets/luminous.jpg') ; background-size: cover; background-position: center; ">
-    <div class=" text-[#ffffff] flex flex-col justify-center items-center pt-50 pb-60">
-      <button class=" text-[#02e2ff] bg-[#01243b] border-3 border-[#005586] px-4 py-1 rounded-full">Illuminating the
+    <div class=" text-[#ffffff] flex flex-col justify-center items-center pt-60 sm:pt-50 pb-60">
+      <button class="text-sm md:text-lg text-[#02e2ff] bg-[#01243b] border-3 border-[#005586] px-4 py-1 rounded-full">Illuminating the
         Deep</button>
-      <h1 class="mt-6 text-8xl bg-gradient-to-r from-[#73efff] to-[#ffbbff] text-transparent bg-clip-text inline-block">
+      <h1 class="mt-6 text-5xl sm:text-7xl md:text-8xl bg-gradient-to-r from-[#73efff] to-[#ffbbff] text-transparent bg-clip-text inline-block">
         Bioluminescent <br> Oceans Project</h1>
-      <p class="mt-6 text-justify text-gray-400 text-xl">Exploring and preserving the magical glow of marine life.
+      <p class="mt-6 text-center sm:text-justify text-gray-400 w-[450px] sm:w-auto sm:text-lg md:text-xl">Exploring and preserving the magical glow of marine life.
         Join us in<br> protecting the most mysterious and luminous ecosystems
         on Earth.
       </p>
@@ -29,12 +29,12 @@
       <div class="mt-6 flex justify-center gap-5">
         <div>
           <button
-            class=" py-2.5 px-4 rounded-lg font-semibold cursor-pointer bg-gradient-to-r from-[#1eb6fd] to-[#0248e0]  hover:bg-gradient-to-l hover:from-[#080131] hover:to-[#080131]  transition duration-200 ease-in hover:border-2 hover:py-2 hover:border-[#1eb6fd]">Start
+            class="text-sm md:text-lg py-2.5 px-4 rounded-lg font-semibold cursor-pointer bg-gradient-to-r from-[#1eb6fd] to-[#0248e0]  hover:bg-gradient-to-l hover:from-[#080131] hover:to-[#080131]  transition duration-200 ease-in hover:border-2 hover:py-2 hover:border-[#1eb6fd]">Start
             Exploring</button>
         </div>
         <div>
           <button
-            class=" py-2 hover:py-2.5 px-4 rounded-lg font-semibold cursor-pointer border-2 border-[#1eb6fd] hover:bg-gradient-to-r from-[#1eb6fd] to-[#0248e0] hover:border-none transition duration-300 ease-in">Learn
+            class="text-sm md:text-lg py-2 hover:py-2.5 px-4 rounded-lg font-semibold cursor-pointer border-2 border-[#1eb6fd] hover:bg-gradient-to-r from-[#1eb6fd] to-[#0248e0] hover:border-none transition duration-300 ease-in">Learn
             More</button>
         </div>
       </div>
@@ -43,11 +43,11 @@
 
   <section class="bg-[#05011b] px-10 md:px-40">
     <div class="flex flex-col md:flex-row justify-between items-center">
-      <div class=" w-[800px] px-5">
-        <button class=" mt-20 text-[#029c4f] bg-[#01243b] border border-[#004268] px-4 py-1 rounded-full">Our
+      <div class=" sm:w-[800px] sm:px-5">
+        <button class="mt-10 sm:mt-20 text-[#029c4f] bg-[#01243b] border border-[#004268] px-4 py-1 rounded-full">Our
           Mission</button>
-        <h1 class=" mt-6 text-4xl text-[#95f3ff]">Preserving Nature's Light Show</h1>
-        <p class="mt-6 text-gray-400 text-xl">The ocean's bioluminescent organisms create one of nature's most
+        <h1 class=" mt-6 text-2xl sm:text-4xl text-[#95f3ff]">Preserving Nature's Light Show</h1>
+        <p class="mt-6 text-gray-400 sm:text-xl">The ocean's bioluminescent organisms create one of nature's most
           spectacular phenomena, yet they face
           unprecedented threats from climate change, pollution, and habitat destruction.
           <br>
@@ -57,18 +57,18 @@
           Through cutting-edge research and global conservation efforts,
           we're ensuring future generations can witness this natural wonder.
         </p>
-        <div class="flex mt-6 gap-4">
-          <div class=" bg-[#01143d] border border-[#013452] mb-10 md:mb-20 rounded-lg pl-5 pr-13 py-5">
+        <div class="flex flex-col sm:flex-row mt-6 sm:gap-4">
+          <div class=" bg-[#01143d] border border-[#013452] mb-4 sm:mb-10 md:mb-20 rounded-lg pl-5 pr-13 py-5">
             <h1 class=" text-[#0ee3ffd3] text-3xl ">90%</h1>
             <p class=" text-gray-400 text-[18px] mt-2">Of ocean life produces light</p>
           </div>
-          <div class=" bg-[#01143d] border border-[#013452] mb-10 md:mb-20 rounded-lg pl-5 pr-22 py-5">
+          <div class=" bg-[#01143d] border border-[#013452] mb-5 sm:mb-10 md:mb-20 rounded-lg pl-5 pr-22 py-5">
             <h1 class=" text-[#f04fffd3] text-3xl ">1000+</h1>
             <p class=" text-gray-400 text-[18px] mt-2">Species documented</p>
           </div>
         </div>
       </div>
-      <div class="w-[760px] md:w-[700px]">
+      <div class="sm:w-[760px] md:w-[700px]">
         <img class="rounded-3xl mb-20 md:mb-0" src="assets/BioIlluminate.jpg" alt="">
       </div>
     </div>
@@ -78,18 +78,17 @@
   <section class="bg-[#05011b] px-10 md:px-40">
     <div class=" text-gray-400 flex flex-col justify-center items-center">
       <button
-        class=" mt-20 bg-gradient-to-r from-[#061b47] to-[#2c1c50] border border-[#241c8f] text-[#397eff] px-4 py-1 rounded-full">What
+        class="mt-10 sm:mt-20 bg-gradient-to-r from-[#061b47] to-[#2c1c50] border border-[#241c8f] text-[#397eff] px-4 py-1 rounded-full">What
         We Do</button>
       <h1
-        class="mt-4 text-[3rem] bg-gradient-to-r from-[#bef7ff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
+        class="mt-4 text-3xl sm:text-[3rem] bg-gradient-to-r from-[#bef7ff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
         Discovering the Unknown</h1>
       <p class="mt-3 text-center">Our multidisciplinary approach combines marine biology, oceanography, and conservation
         <br> science to unlock the
         secrets of bioluminescence.
       </p>
       <div class="flex flex-col md:flex-row md:gap-7 mt-15">
-        <div
-          class=" bg-[#01143d] hover:bg-[#001a25] border border-[#013452] hover:border-[#00441eee] mb-5 md:mb-20 rounded-lg px-5 py-5 hover:-translate-y-2 transition-all duration-300">
+        <div class="bg-[#01143d] hover:bg-[#001a25] border border-[#013452] hover:border-[#00441eee] mb-5 md:mb-20 rounded-lg px-5 py-5 hover:-translate-y-2 transition-all duration-300">
           <div
             class="w-12 h-12 mt-2 text-center text-lg text-[#ffffff] pt-2.5 rounded-lg bg-gradient-to-r from-[rgb(100,160,250)] to-[#1869ff]">
             <i class="fa-solid fa-microscope "></i>
@@ -132,28 +131,28 @@
 
   <section class="bg-[#05011b] py-20 md:px-40 text-gray-400">
     <div
-      class="text-center w-[85%] mx-auto p-20 rounded-xl bg-gradient-to-r from-[#012269] to-[#04435e] border border-[#006e69]">
-      <h1 class="text-[3rem] bg-gradient-to-r from-[#bef7ff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
+      class="text-center w-[85%] mx-auto py-15 px-10 sm:p-20 rounded-xl bg-gradient-to-r from-[#012269] to-[#04435e] border border-[#006e69]">
+      <h1 class="text-3xl sm:text-[3rem] bg-gradient-to-r from-[#bef7ff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
         Impact By Numbers</h1>
       <p class="mt-2">Making waves in ocean conservation</p>
-      <div class="flex flex-col md:flex-row md:gap-30">
-        <div class="flex gap-30 mt-10">
+      <div class="flex flex-col md:flex-row  md:gap-30">
+        <div class="flex gap-15 sm:gap-30 mt-10 justify-center md:justify-start">
           <div class="text-center">
-            <h1 class="text-5xl text-[#45caff]">2500+</h1>
+            <h1 class=" text-3xl sm:text-5xl text-[#45caff]">2500+</h1>
             <p class="mt-3">Research Expeditions</p>
           </div>
           <div class="text-center">
-            <h1 class="text-5xl text-[#7c57e2e0]">85%</h1>
+            <h1 class="text-3xl sm:text-5xl text-[#7c57e2e0]">85%</h1>
             <p class="mt-3">Ocean Depth Covered</p>
           </div>
         </div>
-        <div class="flex gap-30 mt-10">
+        <div class="flex gap-15 sm:gap-30 mt-10 justify-center md:justify-start">
           <div class="text-center">
-            <h1 class="text-5xl text-[#e945ff]">150+</h1>
+            <h1 class="text-3xl sm:text-5xl text-[#e945ff]">150+</h1>
             <p class="mt-3">Marine Reserves Protected</p>
           </div>
           <div class="text-center">
-            <h1 class="text-5xl text-[#45ffc1]">50K+</h1>
+            <h1 class="text-3xl sm:text-5xl text-[#45ffc1]">50K+</h1>
             <p class="mt-3">Community Members</p>
           </div>
         </div>
@@ -164,17 +163,17 @@
   <section class="bg-[#05011b] px-10 md:px-40">
     <div class=" text-gray-400 flex flex-col justify-center items-center ">
       <button
-        class=" mt-20 bg-gradient-to-r from-[#061b47] to-[#2c1c50] border border-[#241c8f] text-[#397eff] px-4 py-1 rounded-full">Ecosystems</button>
+        class="mt-10 sm:mt-20 bg-gradient-to-r from-[#061b47] to-[#2c1c50] border border-[#241c8f] text-[#397eff] px-4 py-1 rounded-full">Ecosystems</button>
       <h1
-        class="mt-4 text-[3rem] bg-gradient-to-r from-[#bef7ff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
+        class="mt-4 text-3xl sm:text-[3rem] bg-gradient-to-r from-[#bef7ff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
         Where Light Meets Life</h1>
       <p class="mt-3 text-center">From the surface to the abyss, bioluminescence illuminates diverse marine ecosystems.
       </p>
-      <div class="flex flex-col sm:flex-row sm:gap-10 mt-15">
+      <div class="flex flex-col md:flex-row md:gap-10 mt-8 sm:mt-15">
         <div
-          class="group  w-[40%] bg-[#01143d] group-hover:bg-[#001a25] border border-[#013452] group-hover:border-[#00441eee] mb-5 md:mb-20 rounded-xl  transition-all duration-300">
-          <div class="overflow-hidden rounded-t-xl">
-            <img class="rounded-t-xl group-hover:scale-105 transition-all duration-300 " src="assets/deepSea!.jpg"
+          class="group mx-auto sm:w-[90%] md:w-[40%] bg-[#01143d] group-hover:bg-[#001a25] border border-[#013452] group-hover:border-[#00441eee] mb-5 md:mb-20 rounded-xl  transition-all duration-300">
+          <div class="overflow-hidden rounded-t-xl h-50 md:h-auto">
+            <img class="rounded-t-xl group-hover:scale-105 transition-all duration-300 w-[700px] md:w-auto" src="assets/deepSea!.jpg"
               alt="">
           </div>
           <div class="px-5">
@@ -188,8 +187,8 @@
           </div>
         </div>
         <div
-          class="group  w-[41.5%] bg-[#01143d] group-hover:bg-[#001a25] border border-[#013452] group-hover:border-[#00441eee] mb-5 md:mb-20 rounded-xl  transition-all duration-300">
-          <div class="overflow-hidden rounded-t-xl">
+          class="group mx-auto sm:w-[90%] md:w-[41.5%] bg-[#01143d] group-hover:bg-[#001a25] border border-[#013452] group-hover:border-[#00441eee] mb-5 md:mb-20 rounded-xl  transition-all duration-300">
+          <div class="overflow-hidden rounded-t-xl h-50 md:h-auto">
             <img class="rounded-t-xl group-hover:scale-105 transition-all duration-300" src="assets/deepSea2.jpg"
               alt="">
           </div>
@@ -204,15 +203,15 @@
           </div>
         </div>
         <div
-          class="group  w-[40%] bg-[#01143d] group-hover:bg-[#001a25] border border-[#013452] group-hover:border-[#00441eee] mb-5 md:mb-20 rounded-xl transition-all duration-300">
-          <div class="overflow-hidden rounded-t-xl">
-            <img class="rounded-t-xl group-hover:scale-105 transition-all duration-300" src="assets/deepSea3.jpg"
+          class="group mx-auto sm:w-[90%] md:w-[40%] bg-[#01143d] group-hover:bg-[#001a25] border border-[#013452] group-hover:border-[#00441eee] mb-5 md:mb-20 rounded-xl transition-all duration-300">
+          <div class="overflow-hidden rounded-t-xl h-50 md:h-auto">
+            <img class="rounded-t-xl group-hover:scale-105 transition-all duration-300 w-[700px] md:w-auto" src="assets/deepSea3.jpg"
               alt="">
           </div>
           <div class="px-5">
             <h1 class="text-[#c2fcfc] group-hover:text-[#5ffcfc] mt-4 transition-all duration-300">Coastal Waters</h1>
             <p class="mt-3">Witness the magical blue glow of dinoflagellates in shallow coastal environments.</p>
-            <div class="flex items-center gap-1 text-[#5ffcfc] group-hover:gap-3 mt-3 transition-all duration-300">
+            <div class="flex items-center gap-1 text-[#5ffcfc] group-hover:gap-3 mt-3 mb-4 md:mb-0 transition-all duration-300">
               <p class="text-sm">Learn More</p>
               <i class="fa-solid fa-arrow-right text-xs mt-1 "></i>
             </div>
@@ -224,24 +223,24 @@
 
   <section class="bg-[#05011b] py-20 md:px-40 text-gray-400">
     <div
-      class="flex flex-col justify-center text-center w-[85%] mx-auto p-20 rounded-xl bg-gradient-to-r from-[#012269] to-[#04435e] border border-[#006e69]">
+      class="flex flex-col justify-center text-center w-[85%] mx-auto py-15 sm:py-20 px-5 sm:px-10 sm:p-20 rounded-xl bg-gradient-to-r from-[#012269] to-[#04435e] border border-[#006e69]">
       <button class="mx-auto w-50 text-[#fc9cef] bg-[#01243b] border border-[#004268] px-4 py-1 rounded-full"><i
           class="fa-regular fa-heart"></i> Join the Movement</button>
       <h1
-        class="mt-4 text-[3rem] bg-gradient-to-r from-[#dcbeff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
+        class="mt-4 text-3xl sm:text-[3rem] bg-gradient-to-r from-[#dcbeff] to-[#ffe7ff] text-transparent bg-clip-text inline-block">
         Help Us Protect the Glow</h1>
-      <p class="mt-6 text-center text-gray-400 text-xl">Exploring and preserving the magical glow of marine life. Join
+      <p class="mt-6 text-center text-gray-400 sm:text-xl">Exploring and preserving the magical glow of marine life. Join
         thousands of ocean lovers in our mission to preserve bioluminescent marine life. Every contribution helps us
         research, protect, and educate.</p>
       <div class="mt-9 flex justify-center gap-5">
         <div>
           <button
-            class="text-[#ffffff] py-1.5 px-6 rounded-lg font-semibold cursor-pointer bg-gradient-to-r from-[#1eb6fd] to-[#0248e0]  hover:bg-gradient-to-l hover:from-[#080131] hover:to-[#080131]  transition duration-200 ease-in hover:border-2 hover:py-1 hover:border-[#1eb6fd]">Become
+            class="text-sm sm:text-lg text-[#ffffff] py-1.5 px-4 sm:px-6 rounded-lg font-semibold cursor-pointer bg-gradient-to-r from-[#1eb6fd] to-[#0248e0]  hover:bg-gradient-to-l hover:from-[#080131] hover:to-[#080131]  transition duration-200 ease-in hover:border-2 hover:py-1 hover:border-[#1eb6fd]">Become
             a Member</button>
         </div>
         <div>
           <button
-            class=" py-1 hover:py-1.5 px-6 rounded-lg font-semibold bg-[#080131] text-[#ffffff] cursor-pointer border-2 border-[#1eb6fd] hover:bg-gradient-to-r from-[#1eb6fd] to-[#0248e0] hover:border-none transition duration-300 ease-in">Stay
+            class="text-sm sm:text-lg py-1 hover:py-1.5 px-4 sm:px-6 rounded-lg font-semibold bg-[#080131] text-[#ffffff] cursor-pointer border-2 border-[#1eb6fd] hover:bg-gradient-to-r from-[#1eb6fd] to-[#0248e0] hover:border-none transition duration-300 ease-in">Stay
             Updated</button>
         </div>
       </div>
@@ -249,7 +248,7 @@
     </div>
   </section>
 
-  <footer class="bg-[#05011b] pt-20 pb-7 px-10 md:px-40 text-gray-400">
+  <footer class="bg-[#05011b] sm:pt-20 pb-7 px-10 md:px-40 text-gray-400">
     <div>
       <div class="flex flex-col md:flex-row md:gap-22 justify-center ">
         <div class="mt-7">
@@ -274,29 +273,29 @@
               class="fa-brands fa-youtube pr-6.5 pl-2 pt-2 pb-2.5 rounded-lg bg-[#000c25] hover:bg-[#092258] border  border-[#002235] hover:border-[#00395a] transition-all duration-300"></i>
           </div>
         </div>
-        <div class="flex gap-22 md:flex-row flex-wrap mt-8">
-          <div class="flex flex-col gap-1">
+        <div class="flex gap-10 sm:gap-22 md:flex-row flex-wrap mt-8">
+          <div class="flex flex-col gap-1 pr-20 sm:pr-0">
             <h1 class="text-[#5ffcfc] text-lg mb-1">About</h1>
             <p class="hover:text-[#00dffc] transition-all duration-300">Our Mission</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Research</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Team</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Partners</p>
           </div>
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 pr-10 sm:pr-0">
             <h1 class="text-[#5ffcfc] text-lg mb-1">Resources</h1>
             <p class="hover:text-[#00dffc] transition-all duration-300">Documentation</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Blog</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">News</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Events</p>
           </div>
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 pr-10 sm:pr-0">
             <h1 class="text-[#5ffcfc] text-lg mb-1">Explore</h1>
             <p class="hover:text-[#00dffc] transition-all duration-300">Ecosystems</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Species Database</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Expeditions</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Gallery</p>
           </div>
-          <div class="flex flex-col gap-1">
+          <div class="flex flex-col gap-1 pr-10 sm:pr-0">
             <h1 class="text-[#5ffcfc] text-lg mb-1">Support</h1>
             <p class="hover:text-[#00dffc] transition-all duration-300">Donate</p>
             <p class="hover:text-[#00dffc] transition-all duration-300">Volunteer</p>
@@ -305,9 +304,9 @@
           </div>
         </div>
       </div>
-      <div class="flex text-sm gap-2 md:gap-80 justify-between md:justify-center border-t border-[#012929] mt-20">
+      <div class="flex flex-col sm:flex-row text-sm gap-2 md:gap-80 sm:justify-between md:justify-center border-t border-[#012929] mt-20">
         <p class="mt-5">© 2025 Bioluminescent Oceans Project. All rights reserved.</p>
-        <div class="flex gap-3 md:gap-10 mt-5">
+        <div class=" flex flex-col sm:flex-row gap-1 sm:gap-3 md:gap-10 mt-1 sm:mt-5">
           <p class="hover:text-[#00dffc] transition-all duration-300">Privacy Policy</p>
           <p class="hover:text-[#00dffc] transition-all duration-300">Terms of Service</p>
           <p class="hover:text-[#00dffc] transition-all duration-300">Cookies</p>
